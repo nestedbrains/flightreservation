@@ -1,21 +1,15 @@
 package com.sio.flightreservation.entities;
 
-public class Passenger {
+import javax.persistence.Entity;
 
-    private Long id;
+@Entity
+public class Passenger extends AbstractEntity {
+
     private String firsName;
     private String lastName;
     private String middleName;
     private String email;
     private String phone;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getFirsName() {
         return firsName;
