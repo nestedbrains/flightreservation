@@ -12,32 +12,35 @@
 </head>
 
 <body>
-<form action="" method="post">
-    <div class="form-group">
-        <label for="firstName">First Name</label>
-        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
-    </div>
+<div class="container">
+    <h2 >User Registration</h2>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+        </div>
 
-    <div class="form-group">
-        <label for="lastName">Last Name</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
-    </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+        </div>
 
-    <div class="form-group">
-        <label for="email">email</label>
-        <input type="text" class="form-control" id="email" placeholder="Enter User Email">
-    </div>
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter User Email">
+        </div>
 
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" placeholder="Password">
-    </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
 
-    <div class="form-group">
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 </body>
 </html>
