@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,26 +11,26 @@
 
 <body>
 <div class="container">
-    <h2 >User Registration</h2>
-    <form action="" method="post">
+    <h2>User Registration</h2>
+    <form action="registerUser" method="post">
         <div class="form-group">
             <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+            <input type="text" name="firstName" class="form-control" id="firstName" placeholder="Enter First Name">
         </div>
 
         <div class="form-group">
             <label for="lastName">Last Name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+            <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Enter Last Name">
         </div>
 
         <div class="form-group">
             <label for="email">email</label>
-            <input type="text" class="form-control" id="email" placeholder="Enter User Email">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Enter User Email">
         </div>
 
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Password">
+            <input type="password" name="password" class="form-control" id="password" placeholder="Password">
         </div>
 
         <div class="form-group">
