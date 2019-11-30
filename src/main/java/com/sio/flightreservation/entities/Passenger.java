@@ -5,18 +5,18 @@ import javax.persistence.Entity;
 @Entity
 public class Passenger extends AbstractEntity {
 
-    private String firsName;
+    private String firstName;
     private String lastName;
     private String middleName;
     private String email;
     private String phone;
 
-    public String getFirsName() {
-        return firsName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirsName(String firsName) {
-        this.firsName = firsName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
