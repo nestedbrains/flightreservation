@@ -32,4 +32,11 @@ public class FlightController {
         modelMap.addAttribute("flights" ,flights);
         return "login/displayFlights";
     }
+
+    @RequestMapping("/admin/showAddFlight")
+    public String showAddFlight(){
+        return  "login/admin/addFlight";
+    }
+
+
 }
