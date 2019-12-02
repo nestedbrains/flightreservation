@@ -1,5 +1,7 @@
 package com.sio.flightreservation.entities;
 
+import com.itextpdf.text.Image;
+
 import javax.persistence.Entity;
 import java.sql.Timestamp;
 import java.util.Date;
